@@ -7,9 +7,9 @@ import styles from './screenheader.style'
 const ScreenHeaderBtn = ({iconUrl, dimension, handlePress}) => {
   return (
    <TouchableOpacity>
-    {/* <Image 
+    <Image 
     source = {iconUrl}
-    /> */}
+    /> 
    </TouchableOpacity>
   )
 }
